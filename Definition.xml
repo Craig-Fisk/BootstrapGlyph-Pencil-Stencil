@@ -1,0 +1,354 @@
+<Shapes xmlns="http://www.evolus.vn/Namespace/Pencil"
+    xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+
+    id="co.uk.cfisk.BootstrapGlyphicons"
+    displayName="Bootstrap Glyphicons"
+    description="Default Glyphicons for the Bootstrap Framework"
+    author="Craig Fisk (craigfisk.co.uk)"
+    url="craigfisk.co.uk">
+
+    <Properties>
+        <PropertyGroup name="Icon">
+            <Property name="fillColor" type="Color" displayName="Fill Color">#CCCCCC</Property>
+        </PropertyGroup>
+    </Properties>
+
+    <Shape id="glyphicon-asterisk" displayName="Asterisk"
+        icon="icons/asterisk_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1000, $box.h/1000),translate(-100, -100)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M600 1100q15 0 34 -1.5t30 -3.5l11 -1q10 -2 17.5 -10.5t7.5 -18.5v-224l158 158q7 7 18 8t19 -6l106 -106q7 -8 6 -19t-8 -18l-158 -158h224q10 0 18.5 -7.5t10.5 -17.5q6 -41 6 -75q0 -15 -1.5 -34t-3.5 -30l-1 -11q-2 -10 -10.5 -17.5t-18.5 -7.5h-224l158 -158 q7 -7 8 -18t-6 -19l-106 -106q-8 -7 -19 -6t-18 8l-158 158v-224q0 -10 -7.5 -18.5t-17.5 -10.5q-41 -6 -75 -6q-15 0 -34 1.5t-30 3.5l-11 1q-10 2 -17.5 10.5t-7.5 18.5v224l-158 -158q-7 -7 -18 -8t-19 6l-106 106q-7 8 -6 19t8 18l158 158h-224q-10 0 -18.5 7.5 t-10.5 17.5q-6 41 -6 75q0 15 1.5 34t3.5 30l1 11q2 10 10.5 17.5t18.5 7.5h224l-158 158q-7 7 -8 18t6 19l106 106q8 7 19 6t18 -8l158 -158v224q0 10 7.5 18.5t17.5 10.5q41 6 75 6z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-plus" displayName="Plus"
+        icon="icons/plus_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1100, $box.h/1100),translate(0, 0)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M450 1100h200q21 0 35.5 -14.5t14.5 -35.5v-350h350q21 0 35.5 -14.5t14.5 -35.5v-200q0 -21 -14.5 -35.5t-35.5 -14.5h-350v-350q0 -21 -14.5 -35.5t-35.5 -14.5h-200q-21 0 -35.5 14.5t-14.5 35.5v350h-350q-21 0 -35.5 14.5t-14.5 35.5v200q0 21 14.5 35.5t35.5 14.5 h350v350q0 21 14.5 35.5t35.5 14.5z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-euro" displayName="Euro"
+        icon="icons/euro_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1200, $box.h/1200),translate(-50, 0)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M744 1198q242 0 354 -189q60 -104 66 -209h-181q0 45 -17.5 82.5t-43.5 61.5t-58 40.5t-60.5 24t-51.5 7.5q-19 0 -40.5 -5.5t-49.5 -20.5t-53 -38t-49 -62.5t-39 -89.5h379l-100 -100h-300q-6 -50 -6 -100h406l-100 -100h-300q9 -74 33 -132t52.5 -91t61.5 -54.5t59 -29 t47 -7.5q22 0 50.5 7.5t60.5 24.5t58 41t43.5 61t17.5 80h174q-30 -171 -128 -278q-107 -117 -274 -117q-206 0 -324 158q-36 48 -69 133t-45 204h-217l100 100h112q1 47 6 100h-218l100 100h134q20 87 51 153.5t62 103.5q117 141 297 141z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-minus" displayName="Minus"
+        icon="icons/minus_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/900, $box.h/900),translate(-200, -100)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M250 700h800q21 0 35.5 -14.5t14.5 -35.5v-200q0 -21 -14.5 -35.5t-35.5 -14.5h-800q-21 0 -35.5 14.5t-14.5 35.5v200q0 21 14.5 35.5t35.5 14.5z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-calendar" displayName="Calendar"
+        icon="icons/calendar_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1200, $box.h/1200), rotate(180), translate(-1150, -1200)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M850 1200h100q21 0 35.5 -14.5t14.5 -35.5v-50h50q21 0 35.5 -14.5t14.5 -35.5v-150h-1100v150q0 21 14.5 35.5t35.5 14.5h50v50q0 21 14.5 35.5t35.5 14.5h100q21 0 35.5 -14.5t14.5 -35.5v-50h500v50q0 21 14.5 35.5t35.5 14.5zM1100 800v-750q0 -21 -14.5 -35.5 t-35.5 -14.5h-1000q-21 0 -35.5 14.5t-14.5 35.5v750h1100zM100 600v-100h100v100h-100zM300 600v-100h100v100h-100zM500 600v-100h100v100h-100zM700 600v-100h100v100h-100zM900 600v-100h100v100h-100zM100 400v-100h100v100h-100zM300 400v-100h100v100h-100zM500 400 v-100h100v100h-100zM700 400v-100h100v100h-100zM900 400v-100h100v100h-100zM100 200v-100h100v100h-100zM300 200v-100h100v100h-100zM500 200v-100h100v100h-100zM700 200v-100h100v100h-100zM900 200v-100h100v100h-100z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-cloud" displayName="Cloud"
+        icon="icons/cloud_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1250, $box.h/1250), rotate(180), translate(-1225, -1325)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M503 1089q110 0 200.5 -59.5t134.5 -156.5q44 14 90 14q120 0 205 -86.5t85 -206.5q0 -121 -85 -207.5t-205 -86.5h-750q-79 0 -135.5 57t-56.5 137q0 69 42.5 122.5t108.5 67.5q-2 12 -2 37q0 153 108 260.5t260 107.5z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-envelope" displayName="Envelope"
+        icon="icons/envelope_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1200, $box.h/1200), rotate(180), translate(-1200, -1200)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M25 1100h1150q10 0 12.5 -5t-5.5 -13l-564 -567q-8 -8 -18 -8t-18 8l-564 567q-8 8 -5.5 13t12.5 5zM18 882l264 -264q8 -8 8 -18t-8 -18l-264 -264q-8 -8 -13 -5.5t-5 12.5v550q0 10 5 12.5t13 -5.5zM918 618l264 264q8 8 13 5.5t5 -12.5v-550q0 -10 -5 -12.5t-13 5.5 l-264 264q-8 8 -8 18t8 18zM818 482l364 -364q8 -8 5.5 -13t-12.5 -5h-1150q-10 0 -12.5 5t5.5 13l364 364q8 8 18 8t18 -8l164 -164q8 -8 18 -8t18 8l164 164q8 8 18 8t18 -8z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-penicl" displayName="Pencil"
+        icon="icons/pencil_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1300, $box.h/1300), rotate(-90), translate(-1250, 50)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M1011 1210q19 0 33 -13l153 -153q13 -14 13 -33t-13 -33l-99 -92l-214 214l95 96q13 14 32 14zM1013 800l-615 -614l-214 214l614 614zM317 96l-333 -112l110 335z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-glass" displayName="Glass"
+        icon="icons/glass_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1200, $box.h/1200), rotate(180), translate(-1200, -1200)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M700 650v-550h250q21 0 35.5 -14.5t14.5 -35.5v-50h-800v50q0 21 14.5 35.5t35.5 14.5h250v550l-500 550h1200z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-music" displayName="Music"
+        icon="icons/music_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/-1200, $box.h/1200), rotate(180), translate(50, -1200)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M368 1017l645 163q39 15 63 0t24 -49v-831q0 -55 -41.5 -95.5t-111.5 -63.5q-79 -25 -147 -4.5t-86 75t25.5 111.5t122.5 82q72 24 138 8v521l-600 -155v-606q0 -42 -44 -90t-109 -69q-79 -26 -147 -5.5t-86 75.5t25.5 111.5t122.5 82.5q72 24 138 7v639q0 38 14.5 59 t53.5 34z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-search" displayName="Search"
+        icon="icons/search_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1225, $box.h/1225), rotate(90),translate(0, -1200)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M500 1191q100 0 191 -39t156.5 -104.5t104.5 -156.5t39 -191l-1 -2l1 -5q0 -141 -78 -262l275 -274q23 -26 22.5 -44.5t-22.5 -42.5l-59 -58q-26 -20 -46.5 -20t-39.5 20l-275 274q-119 -77 -261 -77l-5 1l-2 -1q-100 0 -191 39t-156.5 104.5t-104.5 156.5t-39 191 t39 191t104.5 156.5t156.5 104.5t191 39zM500 1022q-88 0 -162 -43t-117 -117t-43 -162t43 -162t117 -117t162 -43t162 43t117 117t43 162t-43 162t-117 117t-162 43z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-heart" displayName="Heart"
+        icon="icons/heart_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1100, $box.h/1100), rotate(180),translate(-1200, -1150)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M649 949q48 68 109.5 104t121.5 38.5t118.5 -20t102.5 -64t71 -100.5t27 -123q0 -57 -33.5 -117.5t-94 -124.5t-126.5 -127.5t-150 -152.5t-146 -174q-62 85 -145.5 174t-150 152.5t-126.5 127.5t-93.5 124.5t-33.5 117.5q0 64 28 123t73 100.5t104 64t119 20 t120.5 -38.5t104.5 -104z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-star" displayName="Star"
+        icon="icons/star_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1200, $box.h/1200), rotate(180),translate(-1150, -1240)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M407 800l131 353q7 19 17.5 19t17.5 -19l129 -353h421q21 0 24 -8.5t-14 -20.5l-342 -249l130 -401q7 -20 -0.5 -25.5t-24.5 6.5l-343 246l-342 -247q-17 -12 -24.5 -6.5t-0.5 25.5l130 400l-347 251q-17 12 -14 20.5t23 8.5h429z" />
+        </p:Content>
+    </Shape>
+
+    <Shape id="glyphicon-star-empty" displayName="Star Empty"
+        icon="icons/star-empty_icon.png">
+
+        <Properties>
+            <PropertyGroup name="Icon">
+                <Property name="box" displayName="box" type="Dimension" p:lockRatio="true">20,20</Property>
+                <Property name="fillColor" displayName="Fill Color" type="Color">
+                    <E>$$fillColor</E>
+                </Property>
+            </PropertyGroup>
+        </Properties>
+
+        <Behaviors>
+            <For ref="path">
+                <Transform>[scale($box.w/1200, $box.h/1200), rotate(180),translate(-1150, -1240)]</Transform>
+                <Fill>$fillColor</Fill>
+            </For>
+        </Behaviors>
+
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <path id="path" d="M407 800l131 353q7 19 17.5 19t17.5 -19l129 -353h421q21 0 24 -8.5t-14 -20.5l-342 -249l130 -401q7 -20 -0.5 -25.5t-24.5 6.5l-343 246l-342 -247q-17 -12 -24.5 -6.5t-0.5 25.5l130 400l-347 251q-17 12 -14 20.5t23 8.5h429zM477 700h-240l197 -142l-74 -226 l193 139l195 -140l-74 229l192 140h-234l-78 211z" />
+        </p:Content>
+    </Shape>
+
+</Shapes>
