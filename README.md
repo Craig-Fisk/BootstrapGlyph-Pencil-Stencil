@@ -21,6 +21,7 @@ Currently contains 14 icons:
 - Heart
 - Start
 - Star Empty
+- Time
 
 ## Installation
 1. Download the zip for the [latest release](https://github.com/Craig-Fisk/BootstrapGlyph-Pencil-Stencil/releases/latest).
